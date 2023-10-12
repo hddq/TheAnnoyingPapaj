@@ -632,7 +632,7 @@ function hideCursor() {
  */
 function triggerFileDownload() {
   // const fileName2 = getRandomArrayEntry(FILE_DOWNLOADS);
-  let randomNumber = Math.floor(Math.random() * (35 - 1 + 1)) + 1;
+  let randomNumber = Math.floor(Math.random() * 95) + 1;
   const fileName = "papaj" + randomNumber + ".png";
   const a = document.createElement("a");
   a.href = "./assets/" + fileName;
